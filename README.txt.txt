@@ -20,7 +20,7 @@ sudo python setup.py install
 
 
 #clone my script, this script its modified from original -> git clone https://github.com/internetdelascosas/RaspberryPi-DHT11.git
-https://github.com/jesusamoros/rasp-ip-temperature-humidity.git
+git clone https://github.com/jesusamoros/rasp-ip-temperature-humidity.git
 
 #install mysql dependencies
 #don't remenber what is the correct, but whith this dependecies its working
