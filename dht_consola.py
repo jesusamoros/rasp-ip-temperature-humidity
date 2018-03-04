@@ -16,7 +16,7 @@ a = os.popen("curl -s http://icanhazip.com").read()
 print "Mi IP: ",a + t
 hostname = socket.gethostname()
 print hostname
-conn = MySQLdb.connect(host= "your_host:OR_ip",
+conn = MySQLdb.connect(host= "your_host_OR_ip",
                   user="user",
                   passwd="passwd",
                   db="dbname")
@@ -33,7 +33,7 @@ try:
 		humedad, temperatura = Adafruit_DHT.read_retry(sensor, pin)
 		# Imprime en la consola las variables temperatura y humedad con un decimal
 		print('Temperatura={0:0.1f}*  Humedad={1:0.1f}%'.format(temperatura, humedad))
-		conn = MySQLdb.connect(host= "tecnoactivity.es",
+		conn = MySQLdb.connect(host= "your_host_OR_ip",
                   user="user",
                   passwd="passwd",
                   db="dbname")
