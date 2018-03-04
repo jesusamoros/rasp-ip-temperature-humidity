@@ -34,3 +34,6 @@ pip install mysqlclient
 
 # how to work 
 python new_dht_consola.py
+
+#remenber add to crontab 
+#example */10 * * * *   /usr/bin/python /root/proyect/new_dht_consola.py  update any 10min.
