@@ -1,3 +1,4 @@
+#test
 #schema sensor DHT11
 #http://www.internetdelascosas.cl/wp-content/uploads/2017/05/Raspberry-Pi-DHT11_bb-768x374.png
 # source spanish languaje  http://www.internetdelascosas.cl/2017/05/19/raspberry-pi-conectando-un-sensor-de-temperatura-y-humedad-dht11/
